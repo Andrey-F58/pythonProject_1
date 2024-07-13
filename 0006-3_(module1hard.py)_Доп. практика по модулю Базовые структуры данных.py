@@ -35,10 +35,3 @@ students = ['Aaron', 'Bilbo', 'Johnny', 'Khendrik', 'Steve']
 grades = 4.0, 2.25, 4.0, 3.6666666666666665, 4.8
 Average_grades_of_students = dict(zip(students, grades))
 print(Average_grades_of_students) # Получил требуемый в задаче словарь
-
-#Пробовал такой вариант, но показывает ошибку - можете объяснить в чем ошибка?
-Average_grades_of_students = dict(zip(print(sorted(a)), (print(b, c, d, e, f))))
-print(Average_grades_of_students)
-
-
-
